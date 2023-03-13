@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>註冊</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form>
+            <h1>註冊</h1>
+			<label for="firstName">名字</label>
+			<input type="text" name="firstName" required>
+			<label for="lastName">姓氏</label>
+			<input type="text" name="lastName" required>
+			<label for="email">電子郵件地址</label>
+			<input type="email" name="email" required>
+			<label for="password">密碼</label>
+			<input type="password" name="password" required>
+			<label for="gender">性別</label>
+			<select name="gender" required>
+				<option value="">選擇性別</option>
+				<option value="male">男性</option>
+				<option value="female">女性</option>
+				<option value="other">其他</option>
+			</select>
+			<label for="birthday">生日</label>
+			<input type="date" name="birthday" required>
+			<button type="submit">註冊</button>
+		</form>
+	</div>
+</body>
+</html>
