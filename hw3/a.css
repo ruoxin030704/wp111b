@@ -1,0 +1,45 @@
+body {
+	background-image: url("yibo.jpg");
+	background-size: cover;
+	background-position: center;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+h1 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: #000000;
+	margin-bottom: 40px;
+	position: absolute;
+}
+
+
+form button[type="submit"] { 
+    display: block;
+    margin: 0 auto;
+	background-color: #abc3e2;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+	background-color: #97b0c8;
+}
+
+a:link {color: green; background-color: transparent;text-decoration: none;}
+a:visited {color: rgb(0, 0, 0); background-color: transparent;text-decoration: none;}
+a:hover {color: rgb(85, 130, 193);background-color: transparent;text-decoration: underline;}
+a:active {color: rgb(13, 0, 109);background-color: transparent;text-decoration: underline;}
