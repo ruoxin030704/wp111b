@@ -17,3 +17,5 @@ function truthTable(n) {
   // 測試例子
   truthTable(3);
   
+
+  //複製chatGPT程式碼

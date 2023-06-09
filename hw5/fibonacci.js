@@ -13,3 +13,4 @@ function fibonacci(n) {
   const fibonacciNumber = fibonacci(num);
   console.log(`Fibonacci(${num}) = ${fibonacciNumber}`);
   
+  //參考chatGPT
