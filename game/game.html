@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>簡易小遊戲</title>
+  <link rel="stylesheet" type="text/css" href="game.css">
+
+</head>
+<body>
+    <div class="game-container">
+        <h1>猜數字遊戲</h1>
+        <div>
+          <button class="btn" onclick="startGame()">開始遊戲</button>
+            <input type="number" id="guessInput" min="1" max="10">
+            <button class="btn" onclick="checkGuess()">猜!</button>
+        </div>
+        <div class="result" id="result"></div>
+      </div>
+  
+  <script src="game.js"></script>
+</body>
+</html>
